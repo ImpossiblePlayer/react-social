@@ -1,0 +1,12 @@
+:root {
+	--bg-color: #467e79;
+}
+
+body {
+	font: 24px Roboto, sans-serif;
+	background-color: var(--bg-color);
+}
+
+.LoginMain {
+	background: #000;
+}
