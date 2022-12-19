@@ -1,12 +1,58 @@
 :root {
-	--bg-color: #467e79;
+	--main-color: #467e79;
+	--accent-color: #f3f3f3;
+	--bg-color: #0e0e0e;
+	--shadow-color: #cecece;
+	--text-color: #fff;
+	--accent-text-color: #000000;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font: 24px Roboto, sans-serif;
 }
 
 body {
-	font: 24px Roboto, sans-serif;
+	color: var(--text-color);
+	background-color: var(--bg-color);
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.Auth {
+	width: 15rem;
+	height: 30rem;
+	margin-top: 2rem;
+	padding: 1rem;
+	border-radius: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0 0 2rem -0.5rem var(--shadow-color);
+	background-color: var(--main-color);
+}
+
+.Auth-header {
+	width: auto;
+	height: auto;
+	border-radius: 0.5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 	background-color: var(--bg-color);
 }
 
-.LoginMain {
-	background: #000;
+.Auth-header__option {
+	border-radius: inherit;
+	width: auto;
+	padding: 0.5rem;
+}
+
+.Auth-header__option.Active {
+	background-color: var(--accent-color);
+	color: var(--accent-text-color);
 }
