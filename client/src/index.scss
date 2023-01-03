@@ -21,7 +21,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-content: center;
-	background-color: var(--bg-color);
+	background-color: var(--accent-color);
 	color: var(--text-color);
 	font-size: var(--font-size);
 }
@@ -69,19 +69,6 @@ body {
 	margin: 0.25rem 0;
 }
 
-[class^='Auth-form__input'] {
-	width: 13rem;
-	padding: 0.5rem;
-	border-radius: 0.5rem;
-	background-color: var(--bg-color);
-}
-
-.Auth-form__input_button {
-	background-color: var(--accent-color);
-	color: var(--accent-text-color);
-	font-size: var(--font-size);
-}
-
 .Auth-footer {
 	width: 13rem;
 	display: flex;
@@ -97,3 +84,4 @@ body {
 	color: var(--accent-text-color);
 	text-align: center;
 }
+
